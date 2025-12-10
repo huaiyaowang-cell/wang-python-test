@@ -1,0 +1,44 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+\# Database
+*.sqlite3
+\# Media files
+media/
+\# Static files
+staticfiles/
+collectstatic/
+\# Environment
+.env.local
+.venv
+venv/
+env/
+\# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+\# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+htmlcov/
+.pytest_cache/
+.tox/
+\# Production
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+*.egg-info/
+build/
+dist/
+.eggs/

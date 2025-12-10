@@ -1,0 +1,11 @@
+DEBUG: true
+LOCAL: true
+PORT: 20000
+MONGO_URL: mongodb://mongo:27017
+MONGO_DB: difference
+REDIS_URL: redis://redis:6379/14
+REDIS_KWARGS: {"decode_responses": true}
+MONGO_MAP: {}
+BUCKET: puzzlegame
+CDN_URL: https://cdn.puzzlegame.online
+
